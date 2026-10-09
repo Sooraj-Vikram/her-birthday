@@ -21,7 +21,7 @@ export const flowers = [
     bloomColor: "#F6D5D3",
     memory: {
       mediaType: "voice",
-      storagePath: "null",
+      storagePath: null,
       audioUrl: "/src/assets/NoNoise_2.mp3",
       caption: "Thanks to sealsoul...hehehehe...my god!!.",
     },
@@ -64,7 +64,7 @@ export const flowers = [
     memory: {
       mediaType: "photo",
       storagePath: null,
-      photoUrl: "src/assets/final2.jpeg",
+      photoUrl: "/src/assets/final2.jpeg",
       caption: "Hope you dont take everything hard on you always..pretty please!!",
     },
   },
