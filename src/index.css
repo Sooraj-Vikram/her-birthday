@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  min-height: 100%;
+  background-color: #F7F1E8;
+}
+
+body {
+  @apply bg-parchment text-ink font-body;
+  -webkit-tap-highlight-color: transparent;
+  overscroll-behavior-y: none;
+}
+
+/* Subtle watercolor parchment grain overlay */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background-image: radial-gradient(#3d3226 0.4px, transparent 0.4px);
+  background-size: 16px 16px;
+  opacity: 0.035;
+  z-index: 999;
+}
+
+/* Print styling for companion physical bouquet card */
+@media print {
+  body {
+    background: white !important;
+  }
+  body::before {
+    display: none !important;
+  }
+  /* Hide all non-printable overlays */
+  nav, footer, button, .print\:hidden {
+    display: none !important;
+  }
+  #printable-bouquet-card {
+    box-shadow: none !important;
+    border: 1px solid #3d3226 !important;
+    page-break-inside: avoid;
+    margin: auto !important;
+  }
+}
+
+/* Respect reduced motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
