@@ -22,7 +22,7 @@ export const flowers = [
     memory: {
       mediaType: "voice",
       storagePath: null,
-      audioUrl: "/src/assets/NoNoise_2.mp3",
+      audioUrl: "/assets/NoNoise_2.mp3",
       caption: "Thanks to sealsoul...hehehehe...my god!!.",
     },
   },
@@ -36,7 +36,7 @@ export const flowers = [
     memory: {
       mediaType: "photo",
       storagePath: null,
-      photoUrl: "/src/assets/Card 1.png",
+      photoUrl: "/assets/Card 1.png",
       caption: "everything about amuses me...ehhehehehe...literally everything!!!",
     },
   },
@@ -49,8 +49,8 @@ export const flowers = [
     bloomColor: "#F5D061",
     memory: {
       mediaType: "photo",
-      storagePath:null,
-      photoUrl: "/src/assets/Confession card 2.png",
+      storagePath: null,
+      photoUrl: "/assets/Confession card 2.png",
       caption: "Heheheheh....everytime we laugh together...is so heavenly!!!",
     },
   },
@@ -64,7 +64,7 @@ export const flowers = [
     memory: {
       mediaType: "photo",
       storagePath: null,
-      photoUrl: "/src/assets/final2.jpeg",
+      photoUrl: "/assets/final2.jpeg",
       caption: "Hope you dont take everything hard on you always..pretty please!!",
     },
   },
@@ -78,7 +78,7 @@ export const flowers = [
     memory: {
       mediaType: "voice",
       storagePath: null,
-      audioUrl: "/src/assets/NoNoise_1.mp3",
+      audioUrl: "/assets/NoNoise_1.mp3",
       caption: "Life isn't always sunny skies, but knowing I get to hold your hand through every thunderclap made me realize: there is no one else I'd rather stand with in the rain.",
     },
   },
@@ -91,8 +91,8 @@ export const flowers = [
     bloomColor: "#D9B8D4",
     memory: {
       mediaType: "photo",
-      storagePath:null,
-      photoUrl: "/src/assets/written_v1_1.jpeg",
+      storagePath: null,
+      photoUrl: "/assets/written_v1_1.jpeg",
       caption: "You are the gentlest heart and the fiercest protector of the people you love. Your empathy, your quiet courage, and the way you bring warmth into cold rooms inspires me every day. Loving you is the easiest thing I have ever done.",
     },
   },
@@ -105,8 +105,8 @@ export const flowers = [
     bloomColor: "#F7C5A8",
     memory: {
       mediaType: "photo",
-      storagePath:null,
-      photoUrl: "/src/assets/written_v1_2.jpeg",
+      storagePath: null,
+      photoUrl: "/assets/written_v1_2.jpeg",
       caption: "HAHAHAHHA...I know you love.",
     },
   },
@@ -119,8 +119,8 @@ export const flowers = [
     bloomColor: "#C8B4D8",
     memory: {
       mediaType: "voice",
-      storagePath:null,
-      audioUrl:"/src/assets/NoNoise_3.mp3", 
+      storagePath: null,
+      audioUrl: "/assets/NoNoise_3.mp3",
       caption: "There is a particular kind of peace in sitting together without needing to fill the air with words. A book in your hands, music playing softly, both of us exactly where we want to be. That comfortable quiet is one of my favourite places in the world.",
     },
   },
@@ -133,8 +133,8 @@ export const flowers = [
     bloomColor: "#F0B8C8",
     memory: {
       mediaType: "photo",
-      storagePath:null,
-      photoUrl: "/src/assets/final3.jpeg",
+      storagePath: null,
+      photoUrl: "/assets/final3.jpeg",
       caption: "I choose you. Not once, not by accident — but every single day, on purpose, with my whole heart. I promise you kind words when you need honesty, laughter when you need lightness, and steady hands when the world gets heavy. Always and always.",
     },
   },
@@ -150,7 +150,7 @@ export const flowers = [
     memory: {
       mediaType: "photo",
       storagePath: null,
-      photoUrl: "/src/assets/final1.jpeg",
+      photoUrl: "/assets/final1.jpeg",
       caption: "This will happen soon... (I mean the photo hehehehhe)",
     },
   },
